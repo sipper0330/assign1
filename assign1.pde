@@ -32,7 +32,7 @@ q=0;
 }
 
 void draw(){
-  image(bg1,j,0);
+  image(bg1,j+o,0);
   image(bg2,q+f,0);
   image(resA,x,g);
   image(resB,580,200);

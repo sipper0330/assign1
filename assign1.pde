@@ -1,11 +1,10 @@
-
 PImage resA;
 PImage resB;
 PImage star;
 PImage life;
 PImage bg1;
 PImage bg2;
-int k,x,z,e,f,q,s,r,j,c,g,o;
+int y,k,x,z,e,f,q,s,r,j,c,g,o;
 
 void setup(){
 size(640,480);
@@ -24,6 +23,7 @@ c=floor(random(30,215));
 g=floor(random(10,430));
 k=-641;
 j=-641;
+y=0;
 x=0;
 f=0;
 z=0;
@@ -32,8 +32,8 @@ q=0;
 }
 
 void draw(){
-  image(bg1,j+o,0);
-  image(bg2,q+f,0);
+  image(bg1,o+j,0);
+  image(bg2,y,0);
   image(resA,x,g);
   image(resB,580,200);
   image(star,s,r);
@@ -51,7 +51,7 @@ void draw(){
   f%=641;
   q=(z/641*(-641));
   q%=(-1282);
+  y=q+f;
   x+=3;
   x%=640; 
  }
-

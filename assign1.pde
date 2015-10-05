@@ -18,7 +18,7 @@ bg2=loadImage("img/bg2.png");
 colorMode(RGB);
 color(234,34,34);
 
-s=floor(random(10,339));
+s=floor(random(10,600));
 r=floor(random(10,308));
 c=floor(random(30,215));
 g=floor(random(10,430));

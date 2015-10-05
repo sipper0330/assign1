@@ -1,4 +1,3 @@
-/* please implement your assign1 code in this file. */
 PImage resA;
 PImage resB;
 PImage star;
